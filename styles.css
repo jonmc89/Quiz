@@ -1,72 +1,72 @@
 /* || Global Styling */
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* || Main Styling */
 body {
-  overflow-y: hidden;
+    overflow-y: hidden;
 }
 
 main {
-  height: 100vh;
-  scroll-behavior: smooth;
-  background: #9b2a7d;
-  background: linear-gradient(
-    180deg,
-    rgba(155, 42, 125, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+    height: 100vh;
+    scroll-behavior: smooth;
+    background: #9b2a7d;
+    background: linear-gradient(
+        180deg,
+        rgba(155, 42, 125, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
 
 main,
 section {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: center;
-  width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100%;
 }
 
 .start-page-title {
-  font-size: 3rem;
-  margin-bottom: 1.5rem;
-  font-family: "Dancing Script", sans-serif, serif;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: "Dancing Script", sans-serif, serif;
 }
 
 .start-page-link {
-  color: #000;
-  cursor: pointer;
-  font-family: "Josefin Sans", sans-serif, serif;
-  font-size: 1.5rem;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
+    color: #000;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif, serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
 }
 
 .start-page-link:hover {
-  color: #fff;
+    color: #fff;
 }
 
 .start-page-link:active {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .question-header {
-  font-family: "Dancing Script", sans-serif, serif;
-  margin-bottom: 1.5rem;
+    font-family: "Dancing Script", sans-serif, serif;
+    margin-bottom: 1.5rem;
 }
 
 .question-text {
-  color: #fff;
-  font-size: 2.2rem;
-  font-family: "Josefin Sans", sans-serif, serif;
-  margin-bottom: 1.5rem;
-  padding: 1rem;
-  text-align: center;
+    color: #fff;
+    font-size: 2.2rem;
+    font-family: "Josefin Sans", sans-serif, serif;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    text-align: center;
 }
 
 .question-1,
@@ -74,89 +74,94 @@ section {
 .question-3,
 .question-4,
 .question-5 {
-  height: 100vh;
-  background: #9b2a7d;
-  background: linear-gradient(
-    180deg,
-    rgba(155, 42, 125, 1) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+    height: 100vh;
+    background: #9b2a7d;
+    background: linear-gradient(
+        180deg,
+        rgba(155, 42, 125, 1) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
 
 .answers-container {
-  display: flex;
-  flex-direction: column;
-  gap: 1.5rem;
-  margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 4rem;
 }
 
 button {
-  cursor: pointer;
-  border-radius: 1rem;
-  border: none;
-  font-family: "Josefin Sans", sans-serif, serif;
-  font-size: 1.2rem;
-  padding: 1.5rem 2rem;
-  width: 20rem;
-  transition: background-color 0.2s ease-in-out;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    font-family: "Josefin Sans", sans-serif, serif;
+    font-size: 1.2rem;
+    padding: 1.5rem 2rem;
+    width: 20rem;
+    transition: background-color 0.2s ease-in-out;
 }
 
 .button-correct {
-  outline: 0.2rem solid rgb(87, 190, 87);
-  background-color: rgb(203, 245, 203);
+    outline: 0.2rem solid rgb(87, 190, 87);
+    background-color: rgb(203, 245, 203);
 }
 
 .button-wrong {
-  outline: 0.2rem solid rgb(255, 126, 126);
-  background-color: rgb(255, 204, 204);
+    outline: 0.2rem solid rgb(255, 126, 126);
+    background-color: rgb(255, 204, 204);
 }
 
 button:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 button:active {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .next-link {
-  opacity: 0;
-  color: #9b2a7d;
-  cursor: pointer;
-  font-family: "Josefin Sans", sans-serif, serif;
-  font-size: 1.5rem;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    opacity: 0;
+    color: #9b2a7d;
+    cursor: pointer;
+    font-family: "Josefin Sans", sans-serif, serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out, opacity 0.2s ease-in-out;
 }
 
 .next-link-display {
-  opacity: 1;
+    opacity: 1;
 }
 
 .next-link:hover {
-  color: pink;
+    color: pink;
 }
 
 .next-link:active {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
 .try-again {
-  opacity: 0;
-  color: #000;
-  font-family: "Josefin Sans", sans-serif, serif;
-  font-size: 1.4rem;
-  text-decoration: none;
-  transition: opacity 0.2s ease-in-out;
+    opacity: 0;
+    color: #000;
+    font-family: "Josefin Sans", sans-serif, serif;
+    font-size: 1.4rem;
+    text-decoration: none;
+    transition: opacity 0.2s ease-in-out;
 }
 
 .try-again-unhide {
-  opacity: 1;
+    opacity: 1;
 }
 
 .prize-page-title {
-  font-family: "Dancing Script", sans-serif, serif;
-  line-height: 150%;
-  padding: 0 2rem;
-  text-align: center;
+    font-family: "Dancing Script", sans-serif, serif;
+    line-height: 150%;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+.tenor-gif-embed {
+    width: 200px;
+    height: 200px;
 }
